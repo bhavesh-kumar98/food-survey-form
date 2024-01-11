@@ -19,7 +19,7 @@ This project showcases a responsive web page for Food Survey Form. Whether you'r
 
 1. **Clone the Repository:**
    ```bash
-   git clone https://bhavesh-kumar98.github.io/online-food-service
+   git clone https://bhavesh-kumar98.github.io/food-survey-form
 
 2. **Open in Browser:**<br/>
    Click the [URL](https://bhavesh-kumar98.github.io/food-survey-form) in your preferred browser to explore the web page.
