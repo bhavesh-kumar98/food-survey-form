@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <div class="container">
+        <header class="header">
+            <h1 class="text-center" id="title">Food Delivery Survey Form</h1>
+            <p class="description text-center" id="description">
+                Share your favorite bites and thoughts in our quick Food Delivery
+                Experience Survey. Help us serve you better!
+            </p>
+        </header>
+
+        <form class="survey-form" id="survey-form">
+            <div class="form-group">
+                <label id="name-label" for="name">Name </label>
+                <input class="form-control" id="name" type="text" placeholder="Enter your full name" required />
+            </div>
+            <div class="form-group">
+                <label id="email-label" for="email">Email </label>
+                <input class="form-control" id="email" type="email" placeholder="Enter your email" required />
+            </div>
+            <div class="form-group">
+                <label id="number-label" for="number">Age </label>
+                <input class="form-control" id="number" type="number" min="13" max="99" placeholder="Enter your age"
+                    required />
+            </div>
+            <div class="form-group">
+                <p for="dropdown">Describes your role?</p>
+                <select class="form-control" id="dropdown">
+                    <option disabled selected value>Select current role</option>
+                    <option value="Student">Student</option>
+                    <option value="Corporate employee">Corporate employee</option>
+                    <option value="Site Worker">Site Worker</option>
+                    <option value="Homemaker">Homemaker</option>
+                    <option value="Freelancer">Freelancer</option>
+                    <option value="Traveler">Traveler</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <p>Which food ordering companies do you frequently use?:</p>
+                <label>
+                    <input class="input-radio" type="radio" name="user-app-use" value="Sweegy" />Sweegy
+                </label>
+                <label>
+                    <input class="input-radio" type="radio" name="user-app-use" value="Zomato" />Zomato</label>
+                <label>
+                    <input class="input-radio" type="radio" name="user-app-use" value="Foodpanda" />Foodpanda</label>
+                <label>
+                    <input class="input-radio" type="radio" name="user-app-use" value="Domino's" />Domino's</label>
+                <label>
+                    <input class="input-radio" type="radio" name="user-app-use" value="ONDC" />ONDC</label>
+            </div>
+
+            <div class="form-group">
+                <p for="dropdown">What is your favorite point?</p>
+
+                <select class="form-control" id="dropdown">
+                    <option disabled selected value>Select favorite point</option>
+                    <option value="Student">
+                        Prompt and reliable delivery services
+                    </option>
+                    <option value="Corporate employee">
+                        Affordable pricing and good deals
+                    </option>
+                    <option value="Site Worker">
+                        High-quality and tasty food options.
+                    </option>
+                    <option value="Homemaker">
+                        A menu with many different choices to pick from
+                    </option>
+                    <option value="Freelancer">
+                        User-friendly and efficient ordering process
+                    </option>
+                    <option value="Traveler">
+                        Helpful and responsive customer support
+                    </option>
+                </select>
+            </div>
+            <div class="form-group">
+                <p>Choose areas for improvement.</p>
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="0" />Improving
+                    delivery time and reliability
+                </label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="1" />Enhancing
+                    cost-effectiveness
+                </label>
+
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="2" />Ensuring
+                    consistently high-quality food
+                </label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="0" />Simplifying the ordering process for users
+                </label>
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="1" />Offering
+                    more flexibility in order customization
+                </label>
+
+                <label>
+                    <input class="input-checkbox" type="checkbox" value="2" />Improving
+                    real-time order tracking accuracy
+                </label>
+            </div>
+
+            <div class="form-group">
+                <p for="comment">Any comments or suggestions?</p>
+                <textarea class="input-textarea" id="comment" placeholder="Enter your comment here..."></textarea>
+            </div>
+
+            <div class="form-group">
+                <button class="submit-button" type="submit" id="submit" class="submit-button">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
